@@ -1,0 +1,21 @@
+/* container must be relative for absolute letters */
+#output {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+
+.letter {
+    position: absolute;
+    display: inline-block;
+}#blendBtn {
+    background-color: green;
+    color: white;          
+    padding: 8px 15px;
+    cursor: pointer;
+}
+input[type="radio"] {
+    accent-color: black;
+}

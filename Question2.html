@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2</title>
+    <link href="question2.css" rel="stylesheet">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Mr. Surname Blender</title>
+</head>
+<body>
+
+<h1>Mr. Surname Blender</h1>
+
+
+<div>
+    <span>Surname:</span>
+    <input id="surname" type="text" size="20" />
+</div>
+
+
+<div>
+    <span>Font:</span>
+    <select id="font">
+        <option>Arial</option>
+        <option>Verdana</option>
+        <option>Times New Roman</option>
+        <option>Comic Sans MS</option>
+    </select>
+</div>
+
+<div>
+    <span>Position:</span>
+    <input type="radio" name="pos" value="seq" checked> Sequential
+    <input type="radio" name="pos" value="rand"> Random
+    <input type="radio" name="pos" value="rev"> Reverse
+</div>
+
+<div>
+    <span>Color:</span>
+    <select id="color">
+        <option>Black</option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+    </select>
+</div>
+
+<div>
+    <span>Font Size:</span>
+    <input type="number" id="fontSize" value="16" />
+</div>
+
+<div>
+    <span>Letter Spacing:</span>
+    <input type="range" id="spacing" min="0" max="30" value="15">
+</div>
+
+<div>
+    <span>Letter Size Slider:</span>
+    <input type="range" id="sizeSlider" min="10" max="50" value="16">
+</div>
+
+<div>
+    <button id="blendBtn">Blend Now</button>
+</div>
+
+<br>
+
+
+<div id="output" 
+     style="width:300px; height:120px; border:1px solid orange; position:relative;">
+</div>
+ 
+<script src="Question2.js"></script>
+</body>
+</html>
