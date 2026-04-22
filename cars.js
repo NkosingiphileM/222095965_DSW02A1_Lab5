@@ -97,16 +97,16 @@ function RandomCar() {
     let randomIndex = Math.floor(Math.random() * cars.length);
     currentCar = cars[randomIndex];
 
+    // document.getElementById("car-name").textContent = currentCar.car_name;
     document.getElementById("car-name").innerText = currentCar.car_name;
     document.getElementById("car-type").innerText = currentCar.car_type;
 
     let img = document.getElementById("car-img");
     img.src = currentCar.car_image;
-
+    //img.remove();
     img.classList.remove("hidden");
 }
-
-
+   // guessBtn.addEventListener("click", checkedGuess);
 function checkedGuess() {
 
     let btn = document.getElementById("guess-btn");
@@ -124,5 +124,6 @@ function checkedGuess() {
 
     RandomCar();
 
+    //btn.remove("disabled");
     btn.classList.remove("disabled");
 }
